@@ -1,24 +1,20 @@
-
-/*Really Just Testing Different Hexadecimal Background Layers That I'll Remove Later */
+.upper_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 h1{
     text-align:center;
 }
 h2{
     text-align:center;
-} 
-
-.someDiv { 
-	background: greenyellow; 
-	padding: 2em; 
-	border: 1px solid grey; 
 }
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #a31d9a;
 }
 
 li {
@@ -35,5 +31,14 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color:#5e0758;
+}
+
+body {
+	background-color:rgb(204, 33, 192);
+}
+
+.header {
+	<!#a53a93!>
+	background-color:rgb(204, 33, 192);
 }
