@@ -1,29 +1,27 @@
+.upper_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 h1{
     text-align:center;
 }
 h2{
     text-align:center;
 }
-ul.toolbar{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #a31d9a;
 }
 
-.marginz {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 80px;
-}
-
-li.toolbar{
+li {
     float: left;
 }
 
-li.toolbar a{
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -32,6 +30,15 @@ li.toolbar a{
 }
 
 /* Change the link color to #111 (black) on hover */
-li.toolbar a:hover {
-    background-color: #111;
+li a:hover {
+    background-color:#5e0758;
+}
+
+body {
+	background-color:rgb(204, 33, 192);
+}
+
+.header {
+	<!#a53a93!>
+	background-color:rgb(204, 33, 192);
 }
