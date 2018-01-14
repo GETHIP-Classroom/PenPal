@@ -1,3 +1,9 @@
+.upper_middle {
+    position: page;
+    top: 0;
+    left: 0;
+}
+
 .upper_left {
 	position: absolute;
 	top: 0;
