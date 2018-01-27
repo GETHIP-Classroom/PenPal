@@ -1,36 +1,79 @@
-<head>
-	<title>PenPal | Contact Us</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script src="scripts/script.main"></script>
-	<link rel="icon" type="image/png" href="images/favicon.png">
-</head>
-<body>
-	<div class = "header">
-		<img class="upper_left" src="images/favicon.png" alt="Pen with a cute face" height="180px" width="180px">
-		<center>
-        	<img class="upper_middle" src="images/PenPalTextLogo.png" alt="The PenPal Text Logo!" height="140px" width="360px" hspace="20">
-        	</center>
-		<h2>Contact Us!</h2>
+.upper_middle {
+    position: page;
+    top: 0;
+    left: 0;
+}
 
-		<ul>
-			<li><a href="homePage.html">Home</a></li>
-			<li><a href="forumPage.html">Forums</a></li>
-			<li><a href="tipsPage.html">Tips</a></li>
-			<li><a href="helpPage.html">Help</a></li>
-			<li><a href="linksPage.html">Links</a></li>
-			<li><a href="contactsPage.html">Contact Us</a></li>
-		</ul>
-	<div class ="body">
-		<h3>Interact with us for feedback!</h3>
+.upper_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+h1{
+    font-family: "Segoe UI";
+    text-align:center;
+    /*font-size: 44px;*/
+    color: #083667;
+}
+h2{
+    font-family: "Segoe UI";
+    text-align:center;
+    /*font-size: 34px;*/
+    color: #083667;
+}
+h3{
+    font-family: "Segoe UI";
+    text-align:center;
+    /*font-size: 34px;*/
+    color: #083667;
+}
+p{
+    font-family: "Segoe UI";
+    text-align:center;
+    color: #083667;
+    font-weight: 500;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a31d9a;
+    background-color:#DA534F;
+}
+
+li {
+    float: left;
+    font-family: "Segoe UI";
+    color: #083667;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: "Segoe UI";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:#5e0758;
+    background-color:#FFD56F;
+}
+
+body {
+    /*background-color:rgb(204, 33, 192);*/
+    background-color:#083667;
+    background-color:#d4e8f7;
+}
+
+.header {
 	
-		<h1>Facebook</h1>
-		<a href="https://www.youtube.com/channel/UC_DS3PBPKHFviJXaLmDEYNA?view_as=subscriber"></a>
-		<h1>Twitter</h1>
-		<a href="https://en.wikipedia.org/wiki/Dreamcast"></a>
-		<h1>Instagram</h1>
-		<a href="http://www.podwabbit.com/gethip/"></a>
-		
-	</div>
-
-
-</body>
+    background-color:#DA534F;
+    background-color:#B8E1FF;
+    background-color:#FFD56F;
+    background-color:#B5BBAD;
+}
