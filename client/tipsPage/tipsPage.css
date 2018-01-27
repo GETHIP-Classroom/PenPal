@@ -1,37 +1,79 @@
+.upper_middle {
+    position: page;
+    top: 0;
+    left: 0;
+}
+
+.upper_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 h1{
+    font-family: "Segoe UI";
     text-align:center;
+    /*font-size: 44px;*/
+    color: #083667;
 }
 h2{
+    font-family: "Segoe UI";
     text-align:center;
+    /*font-size: 34px;*/
+    color: #083667;
 }
-ul.toolbar{
+h3{
+    font-family: "Segoe UI";
+    text-align:center;
+    /*font-size: 34px;*/
+    color: #083667;
+}
+p{
+    font-family: "Segoe UI";
+    text-align:center;
+    color: #083667;
+    font-weight: 500;
+}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #a31d9a;
+    background-color:#DA534F;
 }
 
-.marginz {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 80px;
-}
-
-li.toolbar{
+li {
     float: left;
+    font-family: "Segoe UI";
+    color: #083667;
 }
 
-li.toolbar a{
+li a {
     display: block;
     color: white;
+    font-family: "Segoe UI";
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 /* Change the link color to #111 (black) on hover */
-li.toolbar a:hover {
-    background-color: #111;
+li a:hover {
+    background-color:#5e0758;
+    background-color:#FFD56F;
+}
+
+body {
+    /*background-color:rgb(204, 33, 192);*/
+    background-color:#083667;
+    background-color:#d4e8f7;
+}
+
+.header {
+	
+    background-color:#DA534F;
+    background-color:#B8E1FF;
+    background-color:#FFD56F;
+    background-color:#B5BBAD;
 }
